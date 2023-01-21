@@ -7,15 +7,15 @@ import AmdDetails from './AmdDetails';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Home';
 import ViewPools from './ViewAmbulance';
-<<<<<<< HEAD
+
 import ViewAmbulance from './ViewAmbulance';
 import Login from './Login';
 import { useAuth0 } from "@auth0/auth0-react";
-=======
+
 import HosInterface from './HosInterface';
 import AddAmb from './AddAmb';
 
->>>>>>> 697f834a7560fc15d1301d2db104167b392dcb51
+
 const App = () => {
   const { loginWithRedirect } = useAuth0();
   return (
@@ -26,16 +26,16 @@ const App = () => {
       <Route exact path="/" element={<Home/>} />
       <Route exact path="/login" element={<Login/>} />
       <Route exact path="/ambdetails" element={<AmdDetails/>} />
-<<<<<<< HEAD
+
       <Route exact path="/ambdetails/Mortuary" element={<ViewAmbulance type={"Mortuary"}/>} />
       <Route exact path="/ambdetails//Basic" element={<ViewAmbulance type={"/Basic"}/>} />
       <Route exact path="/ambdetails/Mortuary" element={<ViewAmbulance type={"Mortuary"}/>} />
       <Route exact path="/ambdetails/Advance" element={<ViewAmbulance type={"Advance"}/>} />
       <Route exact path="/ambdetails/Patient" element={<ViewAmbulance type={"Patient"}/>} />
-=======
+
       <Route exact path="/addAmb" element={<AddAmb/>} />
       <Route exact path="/ambdetails/Mortuary" element={<AmdDetails/>} />
->>>>>>> 697f834a7560fc15d1301d2db104167b392dcb51
+
       <Route exact path="/about" element={<About/>} />
       <Route exact path="/viewpools" element={<ViewPools/>} />
       
