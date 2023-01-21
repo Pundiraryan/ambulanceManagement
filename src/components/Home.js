@@ -1,10 +1,10 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const home = ({automation}) => {
   return (
     <>
      <header>
-        <div className="top-nav">
+        <div className=" top-nav">
             <div className="s-icons">
                 <i className="fa fa-facebook" ></i>
                 <i className="fa fa-instagram"></i>
@@ -29,7 +29,7 @@ const home = ({automation}) => {
                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quam dignissimos enim pariatur, 
                     ex praesentium aliquam officiis id ea, repudiandae dicta, iure animi fuga nostrum beatae tempora harum aspernatur. Ad!</h5>
                 {/* <button className='btn1'>Emergency Booking</button> */}
-                <button className="btn2">Emergency</button>
+                <Link to='/ambdetails'><button className="btn2">Emergency</button> </Link>
             </div>
             <div className="right">
                 <div className="imgauto">
