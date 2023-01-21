@@ -1,8 +1,9 @@
 import React from 'react'
-
+import ViewPools from './ViewAmbulance'
 const AmdDetails = () => {
   return (
-    <div>
+    <>
+    <ViewPools/>
       <form  method="post" className="w-full max-w-sm">
   <div className="md:flex md:items-center mb-6">
     <div className="md:w-1/3">
@@ -73,7 +74,7 @@ const AmdDetails = () => {
   </div>
 </form>
 
-    </div>
+    </>
   )
 }
 
