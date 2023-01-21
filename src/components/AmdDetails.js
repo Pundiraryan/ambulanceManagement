@@ -1,12 +1,12 @@
 import React from 'react'
 import TypeOfAmbulance from './TypeOfAmbulance'
-import ViewPools from './ViewAmbulance'
+import ViewAmbulance from './ViewAmbulance'
 
 const AmdDetails = () => {
   return (
     <>
     <TypeOfAmbulance/>
-    <ViewPools/>
+    <ViewAmbulance/>
       <form  method="post" className="w-full max-w-sm">
 
   <div className="md:flex md:items-center mb-6">
