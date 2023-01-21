@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useAuth0 } from "@auth0/auth0-react";
 const home = ({automation}) => {
+    const { loginWithRedirect } = useAuth0();
   return (
     <>
      <header>
@@ -29,7 +31,7 @@ const home = ({automation}) => {
                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quam dignissimos enim pariatur, 
                     ex praesentium aliquam officiis id ea, repudiandae dicta, iure animi fuga nostrum beatae tempora harum aspernatur. Ad!</h5>
                 {/* <button className='btn1'>Emergency Booking</button> */}
-                <Link to='/ambdetails'><button className="btn2">Emergency</button> </Link>
+                <button  onClick={() => loginWithRedirect()} className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Emergency</button>
             </div>
             <div className="right">
                 <div className="imgauto">
