@@ -8,29 +8,29 @@ const Navbar = () => {
   const {  isAuthenticated } = useAuth0();
   return (
     <div>
-    <nav className="flex items-center justify-between flex-wrap bg-cyan-900 p-6">
+    <nav className="flex items-center justify-between flex-wrap bg-red-900 p-6">
   
   <div className="block lg:hidden">
-    <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+    <button className="flex items-center px-3 py-2 border rounded text-orange-200 border-teal-400 hover:text-white hover:border-white">
       <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
     </button>
   </div>
   <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto h-[18px]">
     <div className="text-sm lg:flex-grow">
-      <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 px-6 font-bold text-lg">
+      <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 text-red-200 hover:text-white mr-4 px-6 font-bold text-lg">
         Home
       </Link>
       
-      <Link to="/ambdetails" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 px-6 font-bold text-lg">
+      <Link to="/ambdetails" className="block mt-4 lg:inline-block lg:mt-0 text-red-200 hover:text-white mr-4 px-6 font-bold text-lg">
         Ambulance Details
       </Link>
-      <Link to="/chatapp" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 px-6 font-bold text-lg">
+      <Link to="/chatapp" className="block mt-4 lg:inline-block lg:mt-0 text-red-200 hover:text-white mr-4 px-6 font-bold text-lg">
         Chat App
       </Link>  
-      <Link to="/about" className=" px-4 block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 px-6 font-bold text-lg">
+      <Link to="/about" className=" px-4 block mt-4 lg:inline-block lg:mt-0 text-red-200 hover:text-white mr-4 px-6 font-bold text-lg">
         About
       </Link>
-      <Link to="/contact" className=" px-4 block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 px-6 font-bold text-lg">
+      <Link to="/contact" className=" px-4 block mt-4 lg:inline-block lg:mt-0 text-red-200 hover:text-white mr-4 px-6 font-bold text-lg">
         Contact Us
       </Link>
     </div>
