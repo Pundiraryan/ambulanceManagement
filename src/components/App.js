@@ -7,6 +7,8 @@ import AmdDetails from './AmdDetails';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Home';
 import ViewPools from './ViewAmbulance';
+import HosInterface from './HosInterface';
+import AddAmb from './AddAmb';
 
 const App = () => {
   
@@ -17,11 +19,12 @@ const App = () => {
       <Routes>  
       <Route exact path="/" element={<Home/>} />
       <Route exact path="/ambdetails" element={<AmdDetails/>} />
-    
+      <Route exact path="/addAmb" element={<AddAmb/>} />
       <Route exact path="/about" element={<About/>} />
       <Route exact path="/viewpools" element={<ViewPools/>} />
       
         <Route exact path="/contact" element={<Contact/>} />
+        <Route exact path="/hosInterface" element={<HosInterface/>} />
       </Routes>      
       </BrowserRouter>
     </>
