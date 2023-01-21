@@ -23,11 +23,13 @@ const home = ({automation}) => {
         </nav>
         <div className="container">
             <div className="left">
-                {/* <h1>Save your MONEY , ENERGY & <span>ENVIRONMENT</span></h1> */}
+            <h1>
+            <span>We Provide   </span>
+                  Efficient And Immediate <span>Ambulance Services</span></h1>
                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quam dignissimos enim pariatur, 
                     ex praesentium aliquam officiis id ea, repudiandae dicta, iure animi fuga nostrum beatae tempora harum aspernatur. Ad!</h5>
-                <button className='btn1'>Emergency Booking</button>
-                <button className="btn2">LOGIN</button>
+                {/* <button className='btn1'>Emergency Booking</button>
+                <button className="btn2">LOGIN</button> */}
             </div>
             <div className="right">
                 <div className="imgauto">

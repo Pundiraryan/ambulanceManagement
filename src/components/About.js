@@ -3,7 +3,15 @@ const About = () => {
   return (
     <>
     <div className="abcontainer">
-      <div className="abhead"><h2>HOW IT WORK</h2></div>
+    <div class="">
+ <img class="h-[500px] " src="https://ayushya.in/wp-content/uploads/2022/05/Ambulance.png" alt="Sunset in the mountains"/>
+ </div>  
+
+   <div className="aboutpara">
+    <h1 class="">About US</h1>
+    <p>Lorem ipsum dolor sit am eaque expedita minus obcaecati rerum iste vero beatae saepe. Tenetur deleniti odit et aut neque similique numquam id fugit quaerat quibusdam. Aliquam dicta dolore distinctio nisi expedita quibusdam! Optio temporibus earum soluta officia doloremque blanditiis officiis assumenda nulla voluptatum placeat minima ipsam, commodi praesentium, consequuntur laborum adipisci distinctio perspiciatis ducimus totam quo! Tempore incidunt quos aliquam! Veniam veritatis deserunt nobis laudantium, odit quasi vel officia. Reprehenderit nihil nesciunt temporibus corporis harum ab amet dolorem molestiae fugit consectetur odit maiores sed quam sit officiis itaque recusandae, a magnam eveniet est incidunt voluptas aliquid atque. Repellat quos velit minus! Architecto officia vero nesciunt rerum sequi tenetur, molestiae a, provident quod in atque. Culpa sed necessitatibus doloribus debitis iure consectetur ut autem dolore dolorum quibusdam similique eum aut, aspernatur rem! Iure maxime corrupti, tenetur nostrum, porro voluptate necessitatibus quia, vero distinctio deserunt harum? Culpa repellat labore non eligendi eius voluptas nisi aut suscipit, pariatur odio ipsum temporibus iure harum reprehenderit dolorem delectus architecto?</p>
+   </div>
+      <div className="abhead"><h2>Services We Provide</h2></div>
       <div className="abcol3">
       <div class="  mx-4 max-w-sm rounded overflow-hidden shadow-lg">
   <img class=" w-full" src="https://www.ambulanceoncall.com/assets/images/gallery/bls4.jpg" alt="Sunset in the mountains"/>
@@ -51,9 +59,7 @@ const About = () => {
 
    
  </div>
- <div class="">
- <img class=" " src="https://ayushya.in/wp-content/uploads/2022/05/Ambulance.png" alt="Sunset in the mountains"/>
- </div>  
+ 
     </div>
   </>
   )
