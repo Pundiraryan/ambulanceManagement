@@ -97,6 +97,7 @@ i:hover{
 .left h1 span{
   color: aliceblue;
   background: #e84393;
+  font-size: 40px;
   background: rgb(14,116,144);
   padding: 0px 15px;
   border-radius: 5px;
@@ -141,8 +142,10 @@ i:hover{
   background: linear-gradient(to bottom ,rgba(253, 121, 168,0.4)70%,white 30%);
 }
 .abhead{
-margin-top: 50px;
+margin-top: 20px;
   align-items: center;
+  font-size: 40px;
+  margin: 20px;
  
 }
 .abcol3{
