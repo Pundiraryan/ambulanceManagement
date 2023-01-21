@@ -30,9 +30,13 @@ const Navbar = () => {
       <Link to="/about" className=" px-4 block mt-4 lg:inline-block lg:mt-0 text-red-200 hover:text-white mr-4 px-6 font-bold text-lg">
         About
       </Link>
+      <Link to="/hosInterface" className=" px-4 block mt-4 lg:inline-block lg:mt-0 text-red-200 hover:text-white mr-4 px-6 font-bold text-lg">
+        Hospital Interface
+      </Link>
       <Link to="/contact" className=" px-4 block mt-4 lg:inline-block lg:mt-0 text-red-200 hover:text-white mr-4 px-6 font-bold text-lg">
         Contact Us
       </Link>
+      
     </div>
     {isAuthenticated &&
       <li>
